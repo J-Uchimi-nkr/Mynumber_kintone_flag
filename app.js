@@ -138,9 +138,16 @@ app.post("/submit", async (req, res) => {
     console.log("updateMyNumber result:", updateResult);
 
     // updateResultが期待した形式であるかをチェック
-    if (!updateResult || updateResult.status !== 200) {  // ここで返り値の存在と形式をチェック
-      throw new Error("Kintoneのレコード更新に失敗しました: " + (updateResult ? updateResult.message : "不明なエラー"));
+    // updateResultが期待した形式であるかをチェック
+    if (!updateResult || updateResult.some(result => result.status !== "success")) {  // ここで返り値の存在と形式をチェック
+      const errorMessage = updateResult
+        .filter(result => result.status !== "success")
+        .map(result => result.message || "不明なエラー")
+        .join(", ");
+      throw new Error("Kintoneのレコード更新に失敗しました: " + errorMessage);
     }
+
+
 
     res.json({
       status: 200,

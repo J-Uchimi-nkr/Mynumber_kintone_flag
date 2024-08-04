@@ -1,0 +1,26 @@
+{
+  "host_url": "https://nkr-group.cybozu.com",
+  "ids": {
+    "3744": {
+      "name": "NKRFSV2.8（999）従業員基本情報",
+      "company": "株式会社レンシュウ",
+      "relationship": "本人",
+      "api_token": "gZ3X52cXyTCDDJdaITD6ZM0tkEQWo0TBJ4DexFh2",
+      "guest": null
+    },
+    "3743": {
+      "name": "NKRFSV2.8（999）従業員基本情報",
+      "company": "株式会社レンシュウ",
+      "relationship": "家族",
+      "api_token": "5njsjmRl3ELAml6OIvP8cBPTQgoA5q4VdjhDJQPI",
+      "guest": null
+    },
+    "3253": {
+      "name": "連絡キャッチャー2.7",
+      "company": "株式会社小林商事",
+      "relationship": "本人",
+      "api_token": "V0nj6LbZ7o4DbzGhWP09jNJFXLyejvukBoZxZDLj",
+      "guest": null
+    }
+  }
+}

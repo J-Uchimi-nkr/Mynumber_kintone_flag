@@ -1,0 +1,49 @@
+{
+  "user_name": "pro1",
+  "demo_endpoint": "https://api-demo.mnsta.com",
+  "service_endpoint": "https://service.officestation.jp",
+  "rn_list": {
+    "BH5HVg": [
+      ["70", "68", "83", "25", "85"],
+      ["06", "16", "39", "77", "36"],
+      ["57", "93", "79", "78", "14"],
+      ["35", "05", "48", "80", "75"],
+      ["33", "84", "55", "02", "01"]
+    ],
+    "xaPpAF": [
+      ["36", "86", "44", "98", "62"],
+      ["83", "75", "76", "93", "85"],
+      ["14", "12", "91", "13", "64"],
+      ["23", "65", "88", "84", "31"],
+      ["96", "71", "08", "18", "99"]
+    ]
+  },
+  "users": {
+    "dev1": {
+      "endpoint_name": "demo_endpoint",
+      "station_id": "e8e8w7",
+      "login_id": "nkr-test",
+      "login_pass": "gycd7z92"
+    },
+    "dev2": {
+      "endpoint_name": "demo_endpoint",
+      "station_id": "83p358",
+      "login_id": "nkr-test",
+      "login_pass": "4Wu3uECo"
+    },
+    "pro1": {
+      "endpoint_name": "service_endpoint",
+      "station_id": "5w7a87",
+      "login_id": "5wcsewsdg4",
+      "login_pass": "fqn33Pzz"
+    },
+    "pro2": {
+      "endpoint_name": "service_endpoint",
+      "station_id": "5w7a87",
+      "login_id": "nkr002",
+      "login_pass": "pcf12345"
+    }
+  },
+  "product_id": "nkr-offista-kintone-apiServer",
+  "email": "k-tokura@nkr-group.com"
+}
